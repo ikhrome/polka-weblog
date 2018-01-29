@@ -1,0 +1,10 @@
+{{#extend "layout"}}
+{{#content "body"}}
+  <h1>Simple web blog</h1>
+  <ul>
+  {{#each posts}}
+  <li><a href="/post/{{id}}">{{title}}</a></li>
+  {{/each}}
+  </ul>
+{{/content}}
+{{/extend}}

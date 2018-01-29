@@ -1,0 +1,30 @@
+{
+  "name": "polka-weblog",
+  "version": "1.0.0",
+  "description": "Simple weblog on Polka",
+  "main": "blog.js",
+  "scripts": {
+		"dev": "nodemon blog.js",
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikhrome/polka-weblog.git"
+  },
+  "keywords": [
+    "polka"
+  ],
+  "author": "Ivan Khromov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ikhrome/polka-weblog/issues"
+  },
+  "homepage": "https://github.com/ikhrome/polka-weblog#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "handlebars": "^4.0.11",
+    "handlebars-layouts": "^3.1.4",
+    "mongoose": "^5.0.2",
+    "polka": "^0.3.0"
+  }
+}
