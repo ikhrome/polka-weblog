@@ -15,6 +15,11 @@ const path = require('path')
 const handlebars = require('handlebars')
 const layouts = require('handlebars-layouts')
 
+/*
+ * It's very simple and not flexible example.
+ * May be it'll help someone to write renderer
+ * for his own needs. Just need to say - CHANGE IT!
+ */
 module.exports = function(req, res, next) {
   res.render = function(filename, context = {}) {
     let base_path = path.join(__dirname, '..', 'views')
